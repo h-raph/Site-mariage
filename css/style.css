@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: rgb(21, 185, 155);
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    color: rgb(2, 52, 72);
+    font-size: 50px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+ul li{
+    display: inline;
+    margin: auto 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#presentation{
+    background-image: url(../images/married.jpg);
+    background-size: cover center;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+#presentation h2{
+    padding-bottom: 40px;
+}
+
+#presentation p{
+    padding: 0 200px;
+    line-height: 25px;
+}
+
+.service-card{
+    width: 50vw;
+    background-color: white;
+    margin: 50px auto;
+    box-sizing: content-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-card img{
+    width: 100%;
+}
+
+.service-content{
+    margin: 10px;
+    color: rgb(85, 85, 159);
+}
+
+.service-content h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.service-content p{
+    line-height: 25px;
+}
+
+#contact{
+    color: white;
+    background-color: rgb(43, 43, 66);
+    padding: 20px;
+    text-align: center;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif
+}
+/* lui envoyer par github */
